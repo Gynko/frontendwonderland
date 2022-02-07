@@ -2,26 +2,26 @@
 
 # Table of content <!-- omit in toc -->
 
-- [Motivation behind Frontend Wonderland](#motivation-behind-frontend-wonderland)
-- [1. Motivation for a V2](#1-motivation-for-a-v2)
-- [2. Roadmap](#2-roadmap)
-  - [2.1. Using Styled Components:](#21-using-styled-components)
+- [1. Motivation](#1-motivation)
+- [2. Motivation for a V2](#2-motivation-for-a-v2)
+- [3. Roadmap](#3-roadmap)
+  - [3.1. Using Styled Components:](#31-using-styled-components)
 
-# Motivation behind Frontend Wonderland
+# 1. Motivation
 
 I was looking for a portfolio project that would allow me to:
 
 1. Practice with html, css, js and react
-2. Be big enough (but not too much) to have to deal with scaling problematics
+2. Be big enough (but not too much) to have to deal with scaling problematics, and imagine how i would deal with it in the context of teamwork.
 
-Moreover, having a topic about web devlopment makes me deepen my understanding of it.
+Moreover, having a topic about web devlopment itself makes me deepen my understanding of it by writing articles and creating "cheat sheets".
 
-# 1. Motivation for a V2
+# 2. Motivation for a V2
 
 As time and knowledge grew in the past weeks, it became evident that the code of the v1 was very redundant and needed a solid brushup.
 As this website includes tons of props driven styles, I decided to add styled components, which adds a very simple way to do so.
 
-# 2. Roadmap
+# 3. Roadmap
 
 1. Finishing the flexbox cheatsheet (apart from the flex-grow property which requires a little extra work).
 2. Adding a component that allows to display code, like github.
@@ -29,7 +29,7 @@ As this website includes tons of props driven styles, I decided to add styled co
 4. Learn and add Typescript
 5. Learn and add NextJs?
 
-## 2.1. Using Styled Components:
+## 3.1. Using Styled Components:
 
 Pros:
 
