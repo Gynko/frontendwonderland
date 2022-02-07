@@ -16,14 +16,13 @@ Finding the right balance is an art!
 ## Using Styled Components:
 
 Pros:
-1- Allows to remove the styles from the components itself: all classes disappear, but you still have to pass props
-every now and then.
-2- Props driven styles without using ugly string interpolation.
-3- Theming.
+
+- Allows to remove the styles from the components itself: all the styling that is not prop driven disappears.
 
 Cons:
-1- Since you replace your jsx tag with the styled variable, it can makes the reader think that you are dealing with a component. That could confuse people?
-Solution: Maybe possible to change color with an extension? (made a little research without success).
+
+- Since you replace your jsx tag with the styled variable, it can make the reader think that you are dealing with a component. That could confuse people?
+  Solution: Maybe possible to change color with an extension? (made a little research without success).
 
 ```javascript
 <div className="component-container"></div>
