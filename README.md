@@ -14,8 +14,9 @@ I was looking for a portfolio project that would allow me to:
 
 1. Practice with html, css, js and react
 2. Be big enough (but not too much) to have to deal with scaling problematics, and imagine how i would deal with it in the context of teamwork.
+3. Start a conversation in my job search
 
-Moreover, having a topic about web devlopment itself makes me deepen my understanding of it by writing articles and creating "cheat sheets".
+Moreover, having articles and content about web devlopment itself makes me deepen my understanding of it by writing articles and creating "cheat sheets".
 
 # 2. Motivation for a V2
 
