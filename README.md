@@ -23,6 +23,8 @@ Moreover, having articles and content about web devlopment itself makes me deepe
 As time and knowledge grew in the past weeks, it became evident that the code of the v1 was very redundant and needed a solid brushup.
 As this website includes tons of props driven styles, I decided to add styled components, which adds a very simple way to do so.
 
+V1 Here: https://github.com/Gynko/mywebsite
+
 # 3. Roadmap
 
 1. Finishing the flexbox cheatsheet (apart from the flex-grow property which requires a little extra work).
