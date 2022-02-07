@@ -5,7 +5,8 @@
 - [1. Motivation](#1-motivation)
 - [2. Motivation for a V2](#2-motivation-for-a-v2)
 - [3. Roadmap](#3-roadmap)
-  - [3.1. Using Styled Components:](#31-using-styled-components)
+- [4. Packages](#4-packages)
+  - [4.1. Using Styled Components:](#41-using-styled-components)
 
 # 1. Motivation
 
@@ -29,13 +30,15 @@ As this website includes tons of props driven styles, I decided to add styled co
 4. Learn and add Typescript
 5. Learn and add NextJs?
 
-## 3.1. Using Styled Components:
+# 4. Packages
+
+## 4.1. Using Styled Components:
 
 Pros:
 
 - Allows to remove all the styling that is not prop driven from the component.
 - Props driven style are easy to set
-- NO MORE CLASS NAMING HEADACHES
+- NO MORE FUNKY CLASS NAMING HEADACHES
 
 Cons:
 
