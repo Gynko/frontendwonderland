@@ -37,7 +37,7 @@ V1 Here: https://github.com/Gynko/mywebsite
 
 ## 4.1. Using Styled Components:
 
-Pros:
+🥰 Pros:
 
 - Allows to remove all the styling that is not prop driven from the component.
 - Props driven style are easy to set
@@ -50,6 +50,6 @@ Pros:
 /* Which may or may not look more readable depending on people's taste and habits :) */
 ```
 
-Cons:
+🤕 Cons:
 
 - Since you replace your jsx tag with the styled variable, it can make the reader think that you are dealing with a classic jsx component. That may have an impact on readability in pages that are component heavy, and confuse people used to pure css.
