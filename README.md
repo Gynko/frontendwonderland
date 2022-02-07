@@ -29,7 +29,7 @@ V1 Here: https://github.com/Gynko/mywebsite
 
 1. Finishing the flexbox cheatsheet (apart from the flex-grow property which requires a little extra work).
 2. Adding a component that allows to display code, like github.
-3. Write a couple of articles about javascript: types, coercion, scope, closures, patterns, async
+3. Write a couple of articles about Javascript and React: types, coercion, scope, closures, patterns, async, hooks and so on.
 4. Learn and add Typescript
 5. Learn and add NextJs?
 
