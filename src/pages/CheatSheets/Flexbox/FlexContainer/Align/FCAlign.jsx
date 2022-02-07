@@ -1,5 +1,7 @@
 import { useState } from "react";
 import Menu from "../../../../../components/Menu/Menu";
+import FCAlignContentGraph from "./FCAlignContentGraph";
+import FCAlignItemsGraph from "./FCAlignItemsGraph";
 import FCJustifyContentGraph from "./FCJustifyContentGraph";
 
 function FCAlign() {
@@ -71,6 +73,107 @@ function FCAlign() {
                 name: "justifycontent",
               },
               {
+                label: `space\nbetween`,
+                value: "space-between",
+                theme: "pink",
+                active: property,
+                name: "justifycontent",
+              },
+              {
+                label: `space-\naround`,
+                value: "space-around",
+                theme: "pink",
+                active: property,
+                name: "justifycontent",
+              },
+              {
+                label: `space-\nevenly`,
+                value: "space-evenly",
+                theme: "pink",
+                active: property,
+                name: "justifycontent",
+              },
+            ]}
+          />
+          <FCJustifyContentGraph property={property} />
+        </>
+      ) : null}
+      {menu === "align-items" ? (
+        <>
+          <Menu
+            margintop="0.4rem"
+            columns={3}
+            onClick={onPropertyChange}
+            options={[
+              {
+                label: `flex-\nstart`,
+                value: "flex-start",
+                theme: "pink",
+                active: property,
+                name: "justifycontent",
+              },
+              {
+                label: `center`,
+                value: "center",
+                theme: "pink",
+                active: property,
+                name: "justifycontent",
+              },
+              {
+                label: `flex-\nend`,
+                value: "flex-end",
+                theme: "pink",
+                active: property,
+                name: "justifycontent",
+              },
+              {
+                label: `stretch`,
+                value: "stretch",
+                theme: "pink",
+                active: property,
+                name: "justifycontent",
+              },
+              {
+                label: `baseline`,
+                value: "baseline",
+                theme: "pink",
+                active: property,
+                name: "justifycontent",
+              },
+            ]}
+          />
+          <FCAlignItemsGraph property={property} />
+        </>
+      ) : null}
+      {menu === "align-content" ? (
+        <>
+          <Menu
+            margintop="0.4rem"
+            columns={3}
+            onClick={onPropertyChange}
+            options={[
+              {
+                label: `flex-\nstart`,
+                value: "flex-start",
+                theme: "pink",
+                active: property,
+                name: "justifycontent",
+              },
+              {
+                label: `center`,
+                value: "center",
+                theme: "pink",
+                active: property,
+                name: "justifycontent",
+              },
+              {
+                label: `flex-\nend`,
+                value: "flex-end",
+                theme: "pink",
+                active: property,
+                name: "justifycontent",
+              },
+              {
                 label: `stretch`,
                 value: "stretch",
                 theme: "pink",
@@ -93,7 +196,7 @@ function FCAlign() {
               },
             ]}
           />
-          <FCJustifyContentGraph property={property} />
+          <FCAlignContentGraph property={property} />
         </>
       ) : null}
     </>

@@ -4,6 +4,7 @@ import { useState } from "react";
 import FCDisplay from "./Display/FCDisplay";
 import FCFlow from "./Flow/FCFlow";
 import FCAlign from "./Align/FCAlign";
+import FCGap from "./Gap/FCGap";
 
 function FlexContainer({ menu }) {
   const [topic, setTopic] = useState("default");
@@ -46,6 +47,11 @@ function FlexContainer({ menu }) {
       terminologyProperty === "properties" &&
       itemContainer === "flex-container" ? (
         <FCAlign />
+      ) : null}
+      {topic === "gap" &&
+      terminologyProperty === "properties" &&
+      itemContainer === "flex-container" ? (
+        <FCGap />
       ) : null}
     </>
   );
