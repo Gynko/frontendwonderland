@@ -4,7 +4,7 @@
 
 - [1. Motivation](#1-motivation)
 - [2. Motivation for a V2](#2-motivation-for-a-v2)
-- [3. Roadmap](#3-roadmap)
+- [3. Roadmap of Features](#3-roadmap-of-features)
 - [4. Packages](#4-packages)
   - [4.1. Using Styled Components:](#41-using-styled-components)
 
@@ -25,7 +25,7 @@ As this website includes tons of props driven styles, I decided to add styled co
 
 V1 Here: https://github.com/Gynko/mywebsite
 
-# 3. Roadmap
+# 3. Roadmap of Features
 
 1. Finishing the flexbox cheatsheet (apart from the flex-grow property which requires a little extra work).
 2. Adding a component that allows to display code, like github.
