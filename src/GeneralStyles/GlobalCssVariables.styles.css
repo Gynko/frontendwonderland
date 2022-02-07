@@ -1,0 +1,58 @@
+:root {
+  /* Fonts - General */
+  --font-main-title: "Milonga";
+  --font-text-regular: "Open Sans";
+  --font-buttons: "Bungee";
+  --font-big-funny: "Sniglet";
+  --font-code: "Operator Mono Light";
+
+  --font-text-color-white: white;
+  --font-text-color-yellow: #f4ae44;
+  --font-text-color-accent: #ef4a4a;
+
+  /* Header Mobile*/
+  --header-background-color: #211728;
+  --height-header-mobile: 4rem;
+  --height-icon: 3rem;
+
+  --font-color-title: #f554b5;
+  --font-size-header-mobile-title: 1.3rem;
+  /* Buttons */
+  --color-button-menu-bg: #141218;
+  --color-button-menu-yellow: #f4ae44;
+  --color-button-menu-redish: #ffa9a9;
+  --color-button-menu-green: #31df4d;
+  --color-button-menu-blue: #52c1ff;
+  --color-button-menu-white: #fff;
+  --color-button-menu-pink: #c9348e;
+
+  /* Pages - General */
+  --pages-background-color: #251f32;
+  --pages-mobile-min-height: calc(
+    var(--vh, 1vh) * 100 - var(--height-header-mobile)
+  );
+  --pages-mobile-elements-width: 20rem;
+  /* Title, title bars */
+  --title-page-pink: #c9348e;
+
+  /* Margins */
+  --margin-top-extra-small: 0.1rem;
+  --margin-top-small: 0.3rem;
+  --margin-top-medium: 0.5rem;
+  --margin-top-large: 0.8rem;
+  --margin-top-big: 1.2rem;
+  --margin-top-huge: 1.8rem;
+
+  /* Topics colors - themes*/
+  --topic-color-background: #181422;
+  --topic-color-css: #436aff;
+  --topic-color-bg-css: #062338;
+  --topic-color-js: #f0db4f;
+  --topic-color-bg-js: #363008;
+  --topic-color-html: #e44f26;
+  --topic-color-bg-html: #2e0e05;
+  --topic-color-react: #61dafb;
+  --topic-color-bg-react: #081f25;
+  --topic-color-default: #ce539f;
+  --topic-color-bg-default: #862660;
+}

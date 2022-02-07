@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+Deciding on an appropriate architecture when dealing with components, their state, their styling, their functionalities.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Separation of concern
+Scalability
 
-## Available Scripts
+# Css
 
-In the project directory, you can run:
+## Architecture
 
-### `npm start`
+In the spirit of separation of concern and reusable self contained components, Css should strive to be contained to the component itself and not rely on external file.
+That does not mean (unfortunately?) that styling will only happen in the stylesheet: props driven styles and theming make that impossible.
+What about Css variables then? They are practical in the sense that we can group for example all colors in one place, and then affect all our components from one place.
+How much do we make things tweakable too? When is it going too far? You can make a component go wild and be able to do everything, but you end up also having to pass a mountain of props, which makes components look really busy..
+Finding the right balance is an art!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Using Styled Components:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Pros:
+1- Allows to remove the styles from the components itself: all classes disappear, but you still have to pass props
+every now and then.
+2- Props driven styles without using ugly string interpolation.
+3- Theming.
 
-### `npm test`
+Cons:
+1- Since you replace your jsx tag with the styled variable, it can makes the reader think that you are dealing with a component. That could confuse people?
+Solution: Maybe possible to change color with an extension? (made a little research without success).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```javascript
+<div className="component-container"></div>
+/* Becomes */
+<ComponentContainer></ComponentContainer>
+/* Which may or may not look more readable depending on people's taste */
+```
