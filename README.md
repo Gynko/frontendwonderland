@@ -43,13 +43,13 @@ Pros:
 - Props driven style are easy to set
 - NO MORE FUNKY CLASS NAMING HEADACHES
 
-Cons:
-
-- Since you replace your jsx tag with the styled variable, it can make the reader think that you are dealing with a classic jsx component. That could confuse people?
-
 ```javascript
 <div className="component-container"></div>
 /* Becomes */
 <ComponentContainer></ComponentContainer>
 /* Which may or may not look more readable depending on people's taste and habits :) */
 ```
+
+Cons:
+
+- Since you replace your jsx tag with the styled variable, it can make the reader think that you are dealing with a classic jsx component. That may have an impact on readability in pages that are component heavy, and confuse people used to pure css.
