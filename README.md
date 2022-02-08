@@ -12,7 +12,7 @@ During my learning journey I took some time to "product design" a portfolio proj
 
 1. Practice with Html, Css, Js and React.
 2. Be big enough (but not too much) to have to deal with scaling problematics and multiple use cases. Scale was also important to make me wonder about how teamwork could be organized.
-3. Have a topic that makes me investigate web development topics.
+3. Have a topic that improves my learning. Making the topic about web development knowledge became the obvious choice.
 
 Frontend Wonderland checked all these boxes.
 
