@@ -10,6 +10,8 @@ import { Link } from "react-router-dom";
 import IconBrainConnect from "../../icons/IconBrainConnect";
 import IconMail from "../../icons/IconMail";
 import ContainerIcon from "../../icons/ContainerIcon.jsx";
+import SimpleLink from "../SimpleLink/SimpleLink.jsx";
+import IconGithub from "../../icons/IconGithub.jsx";
 
 function HeaderMobile() {
   return (
@@ -18,6 +20,10 @@ function HeaderMobile() {
         <Nav>
           <Ul>
             <Li>
+              <LinkTitle to="/">Frontend Wonderland</LinkTitle>
+            </Li>
+
+            <Li>
               <Link to="/topics">
                 <ContainerIcon height="2.8rem">
                   <IconBrainConnect />
@@ -25,7 +31,14 @@ function HeaderMobile() {
               </Link>
             </Li>
             <Li>
-              <LinkTitle to="/">Frontend Wonderland</LinkTitle>
+              <SimpleLink
+                link="https://github.com/Gynko/frontendwonderland"
+                label={
+                  <ContainerIcon height="2.8rem">
+                    <IconGithub />
+                  </ContainerIcon>
+                }
+              ></SimpleLink>
             </Li>
             <Li>
               <ContainerIcon height="2.8rem">
