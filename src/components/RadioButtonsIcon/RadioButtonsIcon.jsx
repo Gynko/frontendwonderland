@@ -6,6 +6,10 @@ import IconFlexInline from "../../icons/IconFlexInline.jsx";
 import IconAlign from "../../icons/IconAlign.jsx";
 import IconGap from "../../icons/IconGap.jsx";
 import IconFlow from "../../icons/IconFlow.jsx";
+import IconOrder from "../../icons/IconOrder.jsx";
+import IconFlexGrowShrink from "../../icons/IconFlexGrowShrink.jsx";
+import IconSelfAlign from "../../icons/IconSelfAlign.jsx";
+
 import {
   InputRadio,
   ContainerRadio,
@@ -105,6 +109,24 @@ function RadioButtonsIcon({ options, name, active, onChange }) {
                 return (
                   <ContainerIcon height="3rem">
                     <IconGap />
+                  </ContainerIcon>
+                );
+              else if (items.icon === "order")
+                return (
+                  <ContainerIcon height="3rem">
+                    <IconOrder />
+                  </ContainerIcon>
+                );
+              else if (items.icon === "grow")
+                return (
+                  <ContainerIcon height="3rem">
+                    <IconFlexGrowShrink />
+                  </ContainerIcon>
+                );
+              else if (items.icon === "selfalign")
+                return (
+                  <ContainerIcon height="3rem">
+                    <IconSelfAlign />
                   </ContainerIcon>
                 );
             })()}

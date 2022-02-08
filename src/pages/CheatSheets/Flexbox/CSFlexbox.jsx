@@ -4,6 +4,7 @@ import { useState } from "react";
 import Menu from "../../../components/Menu/Menu";
 import TerminologyFlexbox from "./TerminologyFlexbox/TerminologyFlexbox";
 import FlexContainer from "./FlexContainer/FlexContainer";
+import FlexItem from "./FlexItem/FlexItem";
 
 function CSFlexbox() {
   const [menu, setMenu] = useState(
@@ -115,6 +116,9 @@ function CSFlexbox() {
       {itemContainer === "flex-container" &&
       terminologyProperty === "properties" ? (
         <FlexContainer menu={menu} />
+      ) : null}
+      {itemContainer === "flex-item" && terminologyProperty === "properties" ? (
+        <FlexItem menu={menu} />
       ) : null}
     </PageContainer>
   );

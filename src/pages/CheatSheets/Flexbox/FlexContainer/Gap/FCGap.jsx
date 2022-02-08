@@ -1,16 +1,22 @@
 import { useState } from "react";
 import PropertyValueSlider from "../../../../../components/PropertyValueSlider/PropertyValueSlider";
+import FCGapGraph from "./FCGapGraph";
 
 function FCGap() {
-  const [gap, setGap] = useState({
-    gapValue: 0,
-    rowGapValue: 0,
-    columnGapValue: 0,
-  });
-  const { gapValue, rowGapValue, columnGapValue } = gap;
+  const [gap, setGap] = useState(0);
+  const [rowGap, setRowGap] = useState(0);
+  const [columnGap, setColumnGap] = useState(0);
 
-  function onPropertyChange(event) {
-    setGap({ ...gap, [event.target.name]: event.target.value });
+  function onGapChange(event) {
+    setGap(event.target.value);
+    setRowGap(event.target.value);
+    setColumnGap(event.target.value);
+  }
+  function onRowChange(event) {
+    setRowGap(event.target.value);
+  }
+  function onColumnChange(event) {
+    setColumnGap(event.target.value);
   }
 
   return (
@@ -19,35 +25,39 @@ function FCGap() {
         id="gap"
         label="gap"
         marginTop="0.4rem"
-        name="gap"
+        name="gapValue"
         min={0}
         max={12}
-        value={gapValue}
+        value={gap}
         unit="px"
-        onChange={onPropertyChange}
+        onChange={onGapChange}
+        color="yellow"
       />
       <PropertyValueSlider
         id="row-gap"
         label={`row-\ngap`}
         marginTop="0.4rem"
-        name="row-gap"
+        name="rowGapValue"
         min={0}
         max={12}
-        value={rowGapValue}
+        value={rowGap}
         unit="px"
-        onChange={onPropertyChange}
+        onChange={onRowChange}
+        color="yellow"
       />
       <PropertyValueSlider
         id="column-gap"
         label={`column-\ngap`}
         marginTop="0.4rem"
-        name="column-gap"
+        name="columnGapValue"
         min={0}
         max={12}
-        value={columnGapValue}
+        value={columnGap}
         unit="px"
-        onChange={onPropertyChange}
+        onChange={onColumnChange}
+        color="yellow"
       />
+      <FCGapGraph rowGap={rowGap} columnGap={columnGap} />
     </>
   );
 }

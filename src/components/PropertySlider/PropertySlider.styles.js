@@ -4,7 +4,7 @@ export const Container = styled.div`
   margin-left: 1rem;
 `;
 
-export const SliderBar = styled.input`
+export const InputRange = styled.input`
   -webkit-appearance: none;
   width: 100%;
   height: 0.7rem;
@@ -19,7 +19,7 @@ export const SliderBar = styled.input`
     appearance: none;
     width: 2rem;
     height: 2rem;
-    background: var(--color-button-menu-yellow);
+    background: ${(props) => `var(--color-button-menu-${props.color})`};
     cursor: pointer;
   }
 `;

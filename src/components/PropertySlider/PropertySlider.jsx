@@ -1,15 +1,16 @@
-import { Container, SliderBar } from "./PropertySlider.styles.js";
+import { Container, InputRange } from "./PropertySlider.styles.js";
 
-function PropertySlider({ min, max, value, onChange, name, id }) {
+function PropertySlider({ min, max, value, onChange, name, color }) {
   return (
     <Container>
-      <SliderBar
+      <InputRange
         type="range"
         min={min}
         max={max}
         onChange={onChange}
+        value={value}
         name={name}
-        id={id}
+        color={color}
       />
     </Container>
   );

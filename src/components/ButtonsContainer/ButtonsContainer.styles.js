@@ -6,6 +6,6 @@ export const Container = styled.div`
   width: var(--pages-mobile-elements-width);
   margin-top: ${(props) => props.margintop};
   margin-bottom: ${(props) => props.marginbottom};
-  justify-items: stretch;
+  justify-items: center;
   row-gap: 0.4rem;
 `;

@@ -4,17 +4,16 @@ import PropertySlider from "../PropertySlider/PropertySlider";
 import PropertyValue from "../PropertyValue/PropertyValue";
 
 function PropertyValueSlider({
-  id,
   label,
   marginTop,
-  placeholder,
+
   min,
   max,
   value,
   name,
   unit,
   onChange,
-  columnGap,
+
   color,
 }) {
   return (
@@ -25,7 +24,8 @@ function PropertyValueSlider({
         max={max}
         onChange={onChange}
         name={name}
-        id={id}
+        value={value}
+        color={color}
       />
     </Container>
   );

@@ -6,4 +6,6 @@ export const NoteParagraph = styled.p`
   color: var(--font-text-color-white);
   margin-top: ${(props) => `${props.margintop}`};
   margin-bottom: ${(props) => `${props.marginbottom}`};
+  white-space: pre;
+  text-align: ${(props) => props.align};
 `;
