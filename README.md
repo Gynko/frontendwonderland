@@ -4,9 +4,7 @@
 
 - [1. Motivation](#1-motivation)
 - [2. Motivation for a V2](#2-motivation-for-a-v2)
-- [3. Roadmap of Features](#3-roadmap-of-features)
-- [4. Packages](#4-packages)
-  - [4.1. Using Styled Components:](#41-using-styled-components)
+- [3. Roadmap](#3-roadmap)
 
 # 1. Motivation
 
@@ -26,33 +24,14 @@ As this website includes tons of props driven styles, I decided to add styled co
 
 Moreover, dynamically updating object properties linked to state allowed to greatly dry the code.
 
+These new "simple" techniques created so much change that i felt that re-creating the project would be more time efficient.
+
 V1 Here: https://github.com/Gynko/mywebsite
 
-# 3. Roadmap of Features
+# 3. Roadmap
 
-1. Adding a component that allows to display code, like github. I will revisit this draft i made: https://github.com/Gynko/ColoredCodeEditor
-2. Write a couple of articles about Javascript and React: types, coercion, scope, closures, patterns, async, hooks and so on.
-3. Learn and add Typescript
-4. Learn and add NextJs?
-5. Learn about testing, add an article
-
-# 4. Packages
-
-## 4.1. Using Styled Components:
-
-🥰 Pros:
-
-- Allows to remove all the styling that is not prop driven from the component.
-- Props driven style are easy to set
-- NO MORE FUNKY CLASS NAMING HEADACHES
-
-```javascript
-<div className="component-container"></div>
-/* Becomes */
-<ComponentContainer></ComponentContainer>
-/* Which may or may not look more readable depending on people's taste and habits :) */
-```
-
-🤕 Cons:
-
-- Since you replace your jsx tag with the styled variable, it can make the reader think that you are dealing with a classic jsx component. That may have an impact on readability in pages that are component heavy, and confuse people used to pure css.
+1. Learn Typescript: I will be taking a 24h+ long in depth course from February 9 2022.
+2. I will "Typescript" Frontend Wonderland on the go as an exercice.
+3. I will be adding a component that allows to display code, like github. I will revisit this component that i made: https://github.com/Gynko/ColoredCodeEditor. This will allow me to add articles about code :).
+4. Learning Testing
+5. I will reevaluate what is smartest to do next, based on the potential feedback that i will get on Frontend Wonderland.
