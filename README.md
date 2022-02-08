@@ -10,29 +10,31 @@
 
 # 1. Motivation
 
-I was looking for a portfolio project that would allow me to:
+During my learning journey, I took some time to "product design" a portfolio project that would allow me to:
 
-1. Practice with html, css, js and react
-2. Be big enough (but not too much) to have to deal with scaling problematics, and imagine how i would deal with it in the context of teamwork.
-3. Start a conversation in my job search
+1. Practice with Html, Css, Js and React
+2. Be big enough (but not too much) to have to deal with scaling problematics
+3. Be big enough to force me to wonder how i would deal with it in the context of teamwork
+4. Have a topic that makes me investigate web design topics
 
-Moreover, having articles and content about web devlopment itself makes me deepen my understanding of it by writing articles and creating "cheat sheets".
+Frontend Wonderland Checked all these boxes.
 
 # 2. Motivation for a V2
 
 As time and knowledge grew in the past weeks, it became evident that the code of the v1 was very redundant and needed a solid brushup.
 As this website includes tons of props driven styles, I decided to add styled components, which adds a very simple way to do so.
 
+Moreover, dynamically updating object properties linked to state allowed to greatly dry the code.
+
 V1 Here: https://github.com/Gynko/mywebsite
 
 # 3. Roadmap of Features
 
-1. Finishing the flexbox cheatsheet (apart from the flex-grow property which requires a little extra work).
-2. Adding a component that allows to display code, like github.
-3. Write a couple of articles about Javascript and React: types, coercion, scope, closures, patterns, async, hooks and so on.
-4. Learn and add Typescript
-5. Learn and add NextJs?
-6. Learn about testing, add an article
+1. Adding a component that allows to display code, like github. I will revisit this draft i made: https://github.com/Gynko/ColoredCodeEditor
+2. Write a couple of articles about Javascript and React: types, coercion, scope, closures, patterns, async, hooks and so on.
+3. Learn and add Typescript
+4. Learn and add NextJs?
+5. Learn about testing, add an article
 
 # 4. Packages
 
