@@ -10,10 +10,9 @@
 
 During my learning journey I took some time to "product design" a portfolio project that would allow me to:
 
-1. Practice with Html, Css, Js and React
-2. Be big enough (but not too much) to have to deal with scaling problematics and multiple use cases
-3. Be big enough to force me to wonder I would deal with it in the context of teamwork
-4. Have a topic that makes me investigate web design topics
+1. Practice with Html, Css, Js and React.
+2. Be big enough (but not too much) to have to deal with scaling problematics and multiple use cases. Scale was also important to make me wonder about how teamwork could be organized.
+3. Have a topic that makes me investigate web development topics.
 
 Frontend Wonderland checked all these boxes.
 
