@@ -20,7 +20,7 @@ Frontend Wonderland checked all these boxes.
 # 2️⃣ Motivation for a V2
 
 As time and knowledge grew in the past weeks, it became evident that the code of the v1 was very redundant and needed a solid brushup.
-As this website includes tons of props driven styles, I decided to add styled components, which allows to do that very simpl.
+As this website includes tons of props driven styles, I decided to add styled components, which allows to do that very simply.
 
 Moreover, dynamically updating object properties linked to state allowed to greatly dry the code.
 
