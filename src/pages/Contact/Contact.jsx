@@ -7,7 +7,7 @@ function Contact() {
       <Title>Contact</Title>
       <HeadlineText margintop="huge">
         {`🥳 I am currently open for opportunities 🥳
-        \nyoann.godiet🎓gmail🧁com`}
+        \nyoann.godiet👒gmail🧁com`}
       </HeadlineText>
     </Container>
   );
