@@ -33,4 +33,4 @@ V1 Here: https://github.com/Gynko/mywebsite
 1. Learn Typescript: I will be taking a 24h+ long in depth course from February 9 2022.
 2. I will "Typescript" Frontend Wonderland on the go as an exercice.
 3. I will be adding a component that allows to display code, like github. I will revisit this component that i made: https://github.com/Gynko/ColoredCodeEditor. This will allow me to add articles about code :).
-4. I will reevaluate what is smartest to do next, based on the potential feedback that i will get on Frontend Wonderland. Testing is big in the list, as well as NextJs and React Native.
+4. I will reevaluate what is smartest to do next, based on the potential feedback that i will get on Frontend Wonderland. Testing is big in the list, as well as NextJs and React Native. And then there is Performance. And I want to get back to data structures and algorithms. It never ends!
