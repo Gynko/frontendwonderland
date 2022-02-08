@@ -20,6 +20,7 @@ function Topics() {
       <Title>Released:</Title>
       <TopicsContainer topiclist={releasedTopics} />
       <Title>Incoming:</Title>
+
       <ButtonsContainer marginbottom="1.3rem" columns="4">
         <RadioButtonsIcon
           name="topic"

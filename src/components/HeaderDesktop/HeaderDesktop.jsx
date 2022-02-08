@@ -19,16 +19,16 @@ function HeaderDesktop() {
               </Link>
             </Li>
             <Li>
-              <TextLink to="/topics" label="Html" />
+              <TextLink to="/" label="Home" />
             </Li>
             <Li>
-              <TextLink to="/topics" label="Css" />
+              <TextLink to="/topics" label="Topics" />
             </Li>
             <Li>
-              <TextLink to="/topics" label="Js" />
-            </Li>
-            <Li>
-              <TextLink to="/topics" label="React" />
+              <TextLink
+                to="https://github.com/Gynko/frontendwonderland"
+                label="Github"
+              />
             </Li>
           </Ul>
           <Contact>
