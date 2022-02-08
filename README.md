@@ -1,4 +1,4 @@
-# Frontend Wonderland v2 <!-- omit in toc -->
+# 🐰 Frontend Wonderland v2 🐰 <!-- omit in toc -->
 
 # Table of content <!-- omit in toc -->
 
