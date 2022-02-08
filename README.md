@@ -2,22 +2,22 @@
 
 # Table of content <!-- omit in toc -->
 
-- [1. Motivation](#1-motivation)
-- [2. Motivation for a V2](#2-motivation-for-a-v2)
-- [3. Roadmap](#3-roadmap)
+- [1️⃣ Motivation](#1️⃣-motivation)
+- [2️⃣ Motivation for a V2](#2️⃣-motivation-for-a-v2)
+- [3️⃣ Roadmap](#3️⃣-roadmap)
 
-# 1. Motivation
+# 1️⃣ Motivation
 
-During my learning journey, I took some time to "product design" a portfolio project that would allow me to:
+During my learning journey I took some time to "product design" a portfolio project that would allow me to:
 
 1. Practice with Html, Css, Js and React
-2. Be big enough (but not too much) to have to deal with scaling problematics
-3. Be big enough to force me to wonder how i would deal with it in the context of teamwork
+2. Be big enough (but not too much) to have to deal with scaling problematics and multiple use cases
+3. Be big enough to force me to wonder I would deal with it in the context of teamwork
 4. Have a topic that makes me investigate web design topics
 
-Frontend Wonderland Checked all these boxes.
+Frontend Wonderland checked all these boxes.
 
-# 2. Motivation for a V2
+# 2️⃣ Motivation for a V2
 
 As time and knowledge grew in the past weeks, it became evident that the code of the v1 was very redundant and needed a solid brushup.
 As this website includes tons of props driven styles, I decided to add styled components, which adds a very simple way to do so.
@@ -28,7 +28,7 @@ These new "simple" techniques created so much change that i felt that re-creatin
 
 V1 Here: https://github.com/Gynko/mywebsite
 
-# 3. Roadmap
+# 3️⃣ Roadmap
 
 1. Learn Typescript: I will be taking a 24h+ long in depth course from February 9 2022.
 2. I will "Typescript" Frontend Wonderland on the go as an exercice.
