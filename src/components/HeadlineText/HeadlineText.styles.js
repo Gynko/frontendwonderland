@@ -5,6 +5,7 @@ export const Text = styled.h3`
   color: var(--font-text-color-yellow);
   text-align: center;
   font-size: 1rem;
+  white-space: pre;
   margin: 0;
   font-weight: 100;
   margin-top: ${(props) => `var(--margin-top-${props.margintop})`};

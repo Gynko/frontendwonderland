@@ -41,9 +41,11 @@ function HeaderMobile() {
               ></SimpleLink>
             </Li>
             <Li>
-              <ContainerIcon height="2.8rem">
-                <IconMail />
-              </ContainerIcon>
+              <Link to="/contact">
+                <ContainerIcon height="2.8rem">
+                  <IconMail />
+                </ContainerIcon>
+              </Link>
             </Li>
           </Ul>
         </Nav>

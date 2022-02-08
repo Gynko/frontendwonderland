@@ -33,7 +33,7 @@ function HeaderDesktop() {
             </Li>
           </Ul>
           <Contact>
-            <Link to="/about">
+            <Link to="/contact">
               <ContainerIcon height="2.8rem">
                 <IconMail />
               </ContainerIcon>
