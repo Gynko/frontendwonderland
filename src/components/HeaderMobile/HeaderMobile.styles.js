@@ -2,9 +2,16 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const Container = styled.div`
+  position: fixed;
   background-color: var(--header-background-color);
   width: 100vw;
   height: var(--height-header-mobile);
+  @media (min-width: 0em) {
+    display: flex;
+  }
+  @media (min-width: 40em) {
+    display: none;
+  }
 `;
 export const Header = styled.header`
   width: 100%;

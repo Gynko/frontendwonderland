@@ -15,7 +15,7 @@ function FCDisplayGraph({ display }) {
     <Container>
       {" "}
       <Paragraph>
-        With the flex property set to "{display}" this div{" "}
+        With the display property set to "{display}" this div{" "}
         <ChangingSpan display={display}>
           <SpanUp>item1</SpanUp>
           <SpanDown>item2</SpanDown>

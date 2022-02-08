@@ -27,3 +27,7 @@ export const Items = styled.div`
   width: calc((var(--pages-mobile-elements-width) / 3) - 8px);
   height: calc(2rem - 8px);
 `;
+
+export const Ghost = styled.div`
+  opacity: 0;
+`;

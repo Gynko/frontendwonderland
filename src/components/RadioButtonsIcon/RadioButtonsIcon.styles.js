@@ -23,6 +23,7 @@ export const InputRadio = styled.input`
   width: 100%;
   height: 100%;
   z-index: 2;
+  cursor: pointer;
 `;
 
 export const Label = styled.label`
@@ -39,6 +40,7 @@ export const Label = styled.label`
   justify-content: center;
   padding: 0.3rem;
   z-index: 2;
+  cursor: pointer;
 `;
 
 export const BoxShadow = styled.div`

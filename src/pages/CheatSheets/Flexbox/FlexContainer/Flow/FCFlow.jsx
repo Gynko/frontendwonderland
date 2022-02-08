@@ -81,7 +81,7 @@ function FCFlow() {
       />
       <FCFlowGraph orientation={orientation} wrapping={wrapping} />
       <Note margintop="0.4rem">
-        Please note that setting properties like max-width, min-width and such
+        Please note that setting properties like max-height, min-height and such
         on the container and/or the items also greatly affects the resulting
         behaviour.
       </Note>

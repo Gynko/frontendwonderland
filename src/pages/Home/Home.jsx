@@ -13,7 +13,12 @@ function Home() {
         <IconRabbitHole />
       </ContainerIcon>
       <TitleFWonderland margintop="small" />
-      <HeadlineText margintop="medium">Cheat sheets and articles.</HeadlineText>
+      <HeadlineText margintop="medium">
+        Personal notes and Cheat Sheets
+      </HeadlineText>
+      <HeadlineText margintop="medium">
+        about Html, Css, Javascript, React..
+      </HeadlineText>
       <HeadlineText margintop="small">
         Because web development can be quite
       </HeadlineText>

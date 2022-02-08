@@ -10,13 +10,17 @@
   --font-text-color-yellow: #f4ae44;
   --font-text-color-accent: #ef4a4a;
 
-  /* Header Mobile*/
+  /* Headers */
   --header-background-color: #211728;
+  --font-color-title: #f554b5;
+
+  /* Header Mobile*/
   --height-header-mobile: 4rem;
   --height-icon: 3rem;
-
-  --font-color-title: #f554b5;
   --font-size-header-mobile-title: 1.3rem;
+
+  /* Header desktop*/
+  --height-header-desktop: 4.5rem;
   /* Buttons */
   --color-button-menu-bg: #141218;
   --color-button-menu-yellow: #f4ae44;
@@ -30,6 +34,9 @@
   --pages-background-color: #251f32;
   --pages-mobile-min-height: calc(
     var(--vh, 1vh) * 100 - var(--height-header-mobile)
+  );
+  --pages-desktop-min-height: calc(
+    var(--vh, 1vh) * 100 - var(--height-header-desktop)
   );
   --pages-mobile-elements-width: 20rem;
   /* Title, title bars */

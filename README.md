@@ -32,6 +32,7 @@ V1 Here: https://github.com/Gynko/mywebsite
 3. Write a couple of articles about Javascript and React: types, coercion, scope, closures, patterns, async, hooks and so on.
 4. Learn and add Typescript
 5. Learn and add NextJs?
+6. Learn about testing, add an article
 
 # 4. Packages
 

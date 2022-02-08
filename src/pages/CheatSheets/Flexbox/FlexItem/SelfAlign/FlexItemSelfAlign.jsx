@@ -1,9 +1,10 @@
 import Menu from "../../../../../components/Menu/Menu";
 import { useState } from "react";
 import FlexItemSelfAlignGraph from "./FlexItemSelfAlignGraph";
+import Note from "../../../../../components/Note/Note";
 
 function FlexItemSelfAlign() {
-  const [property, setProperty] = useState("flex-start");
+  const [property, setProperty] = useState("auto");
 
   function onPropertyChange(event) {
     setProperty(event.target.value);
@@ -60,6 +61,11 @@ function FlexItemSelfAlign() {
         ]}
       />
       <FlexItemSelfAlignGraph alignSelf={property} />
+      <Note margintop="0.4rem">
+        Please note that setting properties like max-width, min-width and such
+        on the container and/or the items also greatly affects the resulting
+        behaviour.
+      </Note>
     </>
   );
 }

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Note from "../../../../../components/Note/Note";
 import PropertyValueSlider from "../../../../../components/PropertyValueSlider/PropertyValueSlider";
 import FCGapGraph from "./FCGapGraph";
 
@@ -21,6 +22,7 @@ function FCGap() {
 
   return (
     <>
+      <Note margintop="0.6rem">⚠️Does not work on older IOS devices</Note>
       <PropertyValueSlider
         id="gap"
         label="gap"
