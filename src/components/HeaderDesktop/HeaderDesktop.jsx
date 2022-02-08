@@ -4,6 +4,7 @@ import IconMail from "../../icons/IconMail";
 import TextLink from "../TextLink/TextLink";
 import { Container, Ul, Li, Nav, Contact } from "./HeaderDesktop.styles.js";
 import { Link } from "react-router-dom";
+import SimpleLink from "../SimpleLink/SimpleLink";
 
 function HeaderDesktop() {
   return (
@@ -25,8 +26,8 @@ function HeaderDesktop() {
               <TextLink to="/topics" label="Topics" />
             </Li>
             <Li>
-              <TextLink
-                to="https://github.com/Gynko/frontendwonderland"
+              <SimpleLink
+                link="https://github.com/Gynko/frontendwonderland"
                 label="Github"
               />
             </Li>
